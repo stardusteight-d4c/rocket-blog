@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rocket Blog</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/banner.css" />
+    <link rel="stylesheet" href="styles/articles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="banner wrapper">
+        <nav class="banner__navigation">
+          <img
+            src="assets/images/logo.svg"
+            alt="The Blog"
+            class="banner__navigation--logo"
+          />
+          <ul class="banner__menu">
+            <li><a href="#home" class="banner__menu--item">Home</a></li>
+            <li><a href="#" class="banner__menu--item">Sobre</a></li>
+            <li><a href="#" class="banner__menu--item">Categorias</a></li>
+            <li><a href="#" class="banner__menu--item">Contato</a></li>
+          </ul>
+          <div class="search">
+            <input
+              type="text"
+              placeholder="Buscar"
+              class="search__navigation"
+            />
+            <button class="search__button"></button>
+          </div>
+        </nav>
+        <div class="banner__article">
+          <div>
+            <h1 class="banner__article--title">
+              Veja o guia definitivo para conquistar seus objetivos como DEV em
+              2022
+            </h1>
+            <p class="banner__article--description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique placerat hac.
+            </p>
+            <a href="#">Veja mais</a>
+          </div>
+          <div>
+            <img
+              src="assets/images/featured-image.png"
+              alt="Artigo principal, um código na tela de um notebook"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="primary__section wrapper">
+        <div class="col-a">
+          <article>
+            <img
+              src="assets/images/post-1.png"
+              alt="Artigo primário, um notebook com códigos na tela sob uma escrivaninha"
+            />
+            <span class="article__date">Junho 17, 2022</span>
+            <h2 class="article__title">Começando no ReactJS em 2022</h2>
+            <p class="article__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed
+              volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.
+            </p>
+          </article>
+        </div>
+        <div class="col-b">
+          <article class="article-1">
+            <span class="article__date">Junho 03, 2022</span>
+            <h2 class="article__title">
+              Conheça as principais técnicas para conseguir uma vaga
+              internacional em programação
+            </h2>
+            <p class="article__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </article>
+          <article class="article-2">
+            <span class="article__date">Junho 12, 2022</span>
+            <h2 class="article__title">
+              Veja a evolução do Front-end na prática
+            </h2>
+            <p class="article__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="secondary__section">
+        <article class="col-a">
+          <img
+            src="assets/images/post-2.png"
+            alt="Artigo primário, um notebook com códigos na tela sob uma escrivaninha"
+          />
+          <span class="article__date">Junho 13, 2022</span>
+          <h2 class="article__title">
+            10 dicas para conseguir a vaga desejada
+          </h2>
+          <p class="article__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+        <article class="col-b">
+          <img
+            src="assets/images/post-3.png"
+            alt="Artigo primário, um notebook com códigos na tela sob uma escrivaninha"
+          />
+          <span class="article__date">Junho 11, 2022</span>
+          <h2 class="article__title">
+            Deixe seu código mais semântico com essas dicas
+          </h2>
+          <p class="article__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+        <article class="col-c">
+          <img
+            src="assets/images/post-4.png"
+            alt="Artigo primário, um notebook com códigos na tela sob uma escrivaninha"
+          />
+          <span class="article__date">Junho 10, 2022</span>
+          <h2 class="article__title">
+            Use essas dicas nas suas aplicações mobile
+          </h2>
+          <p class="article__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

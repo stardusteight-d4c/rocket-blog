@@ -1,0 +1,34 @@
+:root {
+  font-size: 62.5%; /* -> 1rem = 10px | 100% -> 1rem = 16px */
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--light-purple);
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  padding-block: 6.8rem;
+  padding-inline: 13.6rem;
+}
+
+.col-a {
+  grid-area: A;
+}
+
+.col-b {
+  grid-area: B;
+}
+
+.col-c {
+  grid-area: C;
+}
