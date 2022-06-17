@@ -25,6 +25,9 @@
   padding-left: 2.5rem;
   border-radius: 0.4rem 0rem 0rem 0.4rem;
   position: relative;
+  margin-right: 1rem;
+  width: 23.0rem;
+  right: 6rem;
 }
 
 .search__button {
@@ -34,6 +37,7 @@
   font-size: 1.4rem;
   width: 7rem;
   height: 4.4rem;
+  right: 14rem;
   border-radius: 0rem 0.4rem 0.4rem 0rem;
   position: absolute;
 }
